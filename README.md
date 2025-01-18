@@ -6,6 +6,9 @@ Welcome to my React Dashboard project! This is a modern admin dashboard built wi
 featuring customizable themes, a collapsible sidebar, and reusable components. It's designed to be practical,
 polished, and a showcase of what I can build with React.
 
+```
+
+
 ## Table of Contents
 - [Features](#features)
 - [Setup](#setup)
@@ -23,8 +26,6 @@ polished, and a showcase of what I can build with React.
 - **Reusable Components**: Modular design for quick scalability.
 - **Search and Icons**: Functional search bar and icons for better interactivity.
 
-
-   ```
 ## Setup
 1. Clone the repository:
    ```bash
