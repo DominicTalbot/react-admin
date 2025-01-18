@@ -1,7 +1,10 @@
 ```markdown
 # React Dashboard Application
 
-Hey there! Welcome to my React Dashboard project. This started as a fun way to challenge myself and learn more about React, Material-UI, and state management while building something practical and cool. It’s a fully interactive admin dashboard with customizable themes, a collapsible sidebar, and reusable components. Let me take you through it!
+Hey there! Welcome to my React Dashboard project. This started as a way to challenge
+myself and learn more about React, Material-UI, and state management while building
+something practical and cool. It’s a fully interactive admin dashboard with customizable
+themes, a collapsible sidebar, and reusable components. Let me take you through it!
 
 ## Table of Contents
 - [Features](#features)
@@ -15,9 +18,12 @@ Hey there! Welcome to my React Dashboard project. This started as a fun way to c
 - [License](#license)
 
 ## Features
-- **Dark and Light Modes**: One of the first features I implemented, and it was great to learn how to manage theme switching using React context and Material-UI's `createTheme`.
-- **Responsive Design**: I finally got the hang of making things look good across all screen sizes using flexbox and Material-UI components.
-- **Collapsible Sidebar**: A practical yet surprisingly challenging feature. Handling the state for collapsing/expanding taught me a lot about React’s `useState`.
+- **Dark and Light Modes**: One of the first features I implemented, and it was great to
+learn how to manage theme switching using React context and Material-UI's `createTheme`.
+- **Responsive Design**: I finally got the hang of making things look good across all
+screen sizes using flexbox and Material-UI components.
+- **Collapsible Sidebar**: A practical yet surprisingly challenging feature. Handling the
+state for collapsing/expanding taught me a lot about React’s `useState`.
 - **Search Functionality**: Added a search bar in the Topbar—simple, but it makes the UI feel more interactive.
 - **Reusable Header Component**: I realized how much time you can save by creating modular, reusable components.
 
