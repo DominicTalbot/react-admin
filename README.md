@@ -25,6 +25,9 @@ polished, and a showcase of what I can build with React.
 - **Collapsible Sidebar**: A clean and customizable navigation menu.
 - **Reusable Components**: Modular design for quick scalability.
 - **Search and Icons**: Functional search bar and icons for better interactivity.
+<video src="public/assets/DarkLightMode.mp4" controls width="600">
+    Your browser does not support the video tag.
+  </video>
 
 ## Setup
 1. Clone the repository:
