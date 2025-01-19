@@ -97,6 +97,43 @@ The sidebar:
 - Collapses/expands for better screen utilization.
 - Includes customizable menu items and a user profile section.
 - Uses `react-pro-sidebar` for a flexible and functional design.
+#### Sidebar Updates
+The Sidebar has been improved with a structured menu and new features:
+
+### Key Features:
+**Reusable Menu Items:**
+- Menu items are built using a reusable `Item` component, making the code cleaner and easier to manage.
+
+**Organized Sections:**
+- The menu is divided into categories for easier navigation:
+  - **Data:** Manage Team, Contacts Information, and Invoices Balances.
+  - **Pages:** Profile Form, Calendar, and FAQ Page.
+  - **Charts:** Bar Chart, Pie Chart, Line Chart, and Geography Chart.
+
+**Icons and Links:**
+- Each menu item has an icon from Material-UI for a polished look.
+  - **Examples:**
+    - Dashboard: `HomeOutlinedIcon`
+    - Manage Team: `PeopleOutlinedIcon`
+    - Geography Chart: `MapOutlinedIcon`
+   
+![Menu Items](public/assets/images/MenuItems.png)
+
+### Example:
+Here’s how a section looks in the Sidebar:
+
+```jsx
+<Typography variant="h6" color={colors.grey[300]} sx={{ m: "15px 0 5px 20px" }}>
+  Data
+</Typography>
+<Item
+  title="Manage Team"
+  to="/team"
+  icon={<PeopleOutlinedIcon />}
+  selected={selected}
+  setSelected={setSelected}
+/>
+```
 
 ### **Header**
 A modular component for displaying titles and subtitles. It helps maintain consistency across different pages.
