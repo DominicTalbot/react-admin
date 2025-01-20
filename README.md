@@ -139,6 +139,7 @@ Here’s how a section looks in the Sidebar:
 -The application now includes three new pages: Team, Invoices, and Form. Each page is designed for specific functionality and styled with Material-UI components.
 
 1. Team Page
+![Team Page](public/assets/images/TeamPage.png)
 -Purpose: Manage team members by displaying details like ID, name, age, phone number, email, and access level.
 -Features: Uses DataGrid for a clean and interactive table view.
 -Highlights: Access level badges with icons (AdminPanelSettingsOutlinedIcon, LockOpenOutlinedIcon, etc.).
@@ -156,6 +157,7 @@ Here’s how a section looks in the Sidebar:
 />
 ```
 2. Invoices Page
+![Invoices Page](public/assets/images/InvoicesPage.png)
 -Purpose: Display a list of invoice balances with details like ID, name, phone, email, cost, and date.
 -Features: Includes a checkbox selection for rows.
 -Custom rendering for the cost column with color highlights.
@@ -175,6 +177,7 @@ Here’s how a section looks in the Sidebar:
 />
 ```
 3. Form Page
+![Form Page](public/assets/images/FormPage.png)
 -Purpose: Create a new user profile by collecting data like name, contact, and address.
 -Features: Built with Formik and Yup for form validation and management.
 -Input fields include validation for required fields, email, and phone numbers.
