@@ -135,6 +135,73 @@ Here’s how a section looks in the Sidebar:
 />
 ```
 
+## Pages Added
+-The application now includes three new pages: Team, Invoices, and Form. Each page is designed for specific functionality and styled with Material-UI components.
+
+1. Team Page
+-Purpose: Manage team members by displaying details like ID, name, age, phone number, email, and access level.
+-Features: Uses DataGrid for a clean and interactive table view.
+-Highlights: Access level badges with icons (AdminPanelSettingsOutlinedIcon, LockOpenOutlinedIcon, etc.).
+-Color-coded styling for cells and headers.
+#### Code Highlights:
+```jsx
+<DataGrid
+  rows={mockDataTeam}
+  columns={columns}
+  sx={{
+    "& .MuiDataGrid-columnHeaders": {
+      backgroundColor: colors.blueAccent[700],
+    },
+  }}
+/>
+```
+2. Invoices Page
+-Purpose: Display a list of invoice balances with details like ID, name, phone, email, cost, and date.
+-Features: Includes a checkbox selection for rows.
+-Custom rendering for the cost column with color highlights.
+-Styled with Material-UI for consistency.
+#### Code Highlights:
+```jsx
+<DataGrid
+  checkboxSelection
+  rows={mockDataInvoices}
+  columns={columns}
+  sx={{
+    "& .MuiDataGrid-root": { border: "none" },
+    "& .MuiDataGrid-footerContainer": {
+      backgroundColor: colors.blueAccent[700],
+    },
+  }}
+/>
+```
+3. Form Page
+-Purpose: Create a new user profile by collecting data like name, contact, and address.
+-Features: Built with Formik and Yup for form validation and management.
+-Input fields include validation for required fields, email, and phone numbers.
+-Styled with Material-UI's TextField and responsive grid layout.
+#### Code Highlights:
+```jsx
+<Formik
+  initialValues={initialValues}
+  validationSchema={userSchema}
+  onSubmit={handleFormSubmit}
+>
+  {({ values, errors, touched, handleChange, handleSubmit }) => (
+    <form onSubmit={handleSubmit}>
+      <TextField
+        fullWidth
+        label="First Name"
+        name="firstName"
+        value={values.firstName}
+        onChange={handleChange}
+        error={touched.firstName && !!errors.firstName}
+        helperText={touched.firstName && errors.firstName}
+      />
+    </form>
+  )}
+</Formik>
+```
+
 ### **Header**
 A modular component for displaying titles and subtitles. It helps maintain consistency across different pages.
 
