@@ -195,28 +195,28 @@ const Sidebar = () => {
                         </Typography>
                         <Item
                             title="Bar Chart"
-                            to="/"
+                            to="/bar"
                             icon={<BarChartOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Pie Chart"
-                            to={"/"}
+                            to={"/pie"}
                             icon={<PieChartOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Line Chart"
-                            to={"/"}
+                            to={"/line"}
                             icon={<TimeLineOutlinedIcon />}
                             selected={selected}
                             setSelected={setSelected}
                         />
                         <Item
                             title="Geography Chart"
-                            to={"/"}
+                            to={"/geography"}
                             icon={< MapOutlinedIcon/>}
                             selected={selected}
                             setSelected={setSelected}
