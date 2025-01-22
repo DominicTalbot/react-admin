@@ -1,18 +1,18 @@
 import { Box } from "@mui/material";
 import Header from "../../components/header";
-import BarChart from "../../components/BarChart";
+import LineChart from "../../components/LineChart";
 
 
-const Bar = () => {
+const Line = () => {
     return (
         <Box m="20px">
-            <Header title="Bar Chart" subtitle="Bar Chart Page" />
+            <Header title="Line Chart" subtitle="Line Chart Page" />
             <Box height="75vh">
-                <BarChart />
+                <LineChart />
             </Box>
         </Box>
     )
 
 }
 
-export default Bar;
+export default Line;
