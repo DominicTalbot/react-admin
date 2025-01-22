@@ -2,6 +2,8 @@
 
 Welcome to my React Dashboard project! This is a modern admin dashboard built with React and Material-UI, featuring customizable themes, a collapsible sidebar, and reusable components. It's designed to be practical, polished, and a showcase of what I can build with React.
 
+![Dashboard](public/assets/images/Dashboard.png)
+
 ## Table of Contents
 - [Features](#features)
 - [Setup](#setup)
