@@ -4,6 +4,8 @@ Welcome to my React Dashboard project! This is a modern admin dashboard built wi
 
 ![Dashboard](public/assets/images/Dashboard.png)
 
+  [View demo](https://doms-admin-dashboard.netlify.app/)
+
 ## Table of Contents
 - [Features](#features)
 - [Setup](#setup)
